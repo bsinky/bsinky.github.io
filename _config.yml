@@ -1,10 +1,10 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       bsinky blog
+email:       
+author:      Ben Sinkula
+description: "A blog about programming, and probably video games"
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "https://bsinky.github.io/" 
 date_format: "%b %-d, %Y"
 
 # Google services
@@ -27,7 +27,7 @@ extended_fonts: false
 
 # Disqus post comments
 # (leave blank to disable Disqus)
-disqus_shortname:
+disqus_shortname: bsinkyblog
 
 # Facebook Comments plugin
 # (leave blank to disable Facebook Comments, otherwise set it to true)
@@ -36,12 +36,12 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username:
+github_username: bsinky
 bitbucket_username:
 stackoverflow_id:
 twitter_username:
 skype_username:
-steam_nickname:
+steam_nickname: bsinky
 google_plus_id:
 linkedin_username:
 angellist_username:
@@ -54,12 +54,12 @@ flattr_button:
 show_sharing_icons: false
 # Change to 'true' to enable individual icons
 share_facebook: false
-share_twitter: false
+share_twitter: true
 share_googleplus: false
 share_linkedin: false
 share_digg: false
 share_tumblr: false
-share_reddit: false
+share_reddit: true
 share_stumbleupon: false
 share_hackernews: false
 
