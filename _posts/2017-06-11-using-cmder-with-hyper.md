@@ -4,7 +4,7 @@ title: Using Cmder with Hyper
 date: 2017-06-11 08:33
 categories: ["programming", "tools"]
 ---
-Today I'm writing about [Hyper](https://hyper.is/), a program that essentially wraps a terminal instance in a pretty UI.  It might sounds underwhelming, but it looks *really* good, and besides that has a number of plugins available to add features that you might not be able to get in a standard terminal.
+Today I'm writing about [Hyper](https://hyper.is/), a program that essentially wraps a terminal instance in a pretty UI.  It might sound underwhelming, but it looks *really* good, and besides that has a number of plugins available to add features that you might not be able to get in a standard terminal.
 
 ![Hyper with Cmder terminal running on Windows]({{ site.url }}/images/hypercmder/hypercmder1.png)
 
