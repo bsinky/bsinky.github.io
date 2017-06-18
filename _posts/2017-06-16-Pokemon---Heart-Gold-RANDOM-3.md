@@ -8,7 +8,7 @@ tags: ["pokemon", "video games"]
 
 The biggest update this time: **I have made it through Victory Road and into the Indigo Plateau!**
 
-I will challenging the Elite Four very soon! Exciting!
+I will be challenging the Elite Four very soon! Exciting!
 
 Navigating through Victory Road, I ran into a surprising number of Ruby/Sapphire generation legendaries.  Groudon, Latios, *and* Rayquaza, all in the same area.  That was a neat coincidence.
 
