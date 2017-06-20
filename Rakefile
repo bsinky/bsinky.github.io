@@ -1,3 +1,5 @@
+require 'date'
+
 drafts_dir = '_drafts'
 posts_dir  = '_posts'
 
@@ -54,6 +56,23 @@ task :draft, :title do |t, args|
 # Uncomment the line below if you want the draft to automatically open in your default text editor
 system ("#{ENV['EDITOR']} #{filename}")
 end
+
+# usage: rake publish['existing draft title']
+desc 'publish an existing draft post with "rake publish[\'draft title\']"'
+task :publish, :title do |t, args|
+  if args.title
+    title = args.title
+  else
+    puts "Please try again. Remember to include the draft title."
+  end
+  mkdir_p "#{posts_dir}"
+  filename = "#{title.downcase.gsub(/[^\w]+/, '-')}.md"
+  formatteddate = DateTime.now.strftime("%Y-%m-%d")
+  draftfile = "#{drafts_dir}/#{filename}"
+  postfilename = "#{posts_dir}/#{formatteddate}-#{filename}"
+  puts "Publishing draft: #{postfilename}"
+  File.rename(draftfile, postfilename)
+  end
 
 desc 'preview the site with drafts'
 task :preview do
