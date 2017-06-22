@@ -2,6 +2,7 @@
 layout: post
 title: Using Cmder with Hyper
 date: 2017-06-11 08:33
+excerpt: Today I'm writing about Hyper, a program that essentially wraps a terminal instance in a pretty UI.
 categories: ["programming", "tools"]
 comments: true
 ---

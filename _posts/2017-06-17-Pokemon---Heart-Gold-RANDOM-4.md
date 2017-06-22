@@ -41,7 +41,7 @@ Pok&eacute;mon Caught: 301, Seen: 418
 <section class="section">
 	<div>
 		<div class="columns is-multiline is-mobile">
-<div>
+<div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">
@@ -65,7 +65,7 @@ Pok&eacute;mon Caught: 301, Seen: 418
 			<small>Tail Whip, Tackle, Helping Hand, Sand Attack</small>
 		</div>
 	</div>
-</div><div>
+</div><div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">
@@ -89,7 +89,7 @@ Pok&eacute;mon Caught: 301, Seen: 418
 			<small>Aura Sphere, Close Combat, Swords Dance, Me First</small>
 		</div>
 	</div>
-</div><div>
+</div><div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">
@@ -113,7 +113,7 @@ Pok&eacute;mon Caught: 301, Seen: 418
 			<small>Rock Slide, Dark Pulse, Crunch, Earthquake</small>
 		</div>
 	</div>
-</div><div>
+</div><div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">
@@ -137,7 +137,7 @@ Pok&eacute;mon Caught: 301, Seen: 418
 			<small>Razor Leaf, Blizzard, Ice Shard, Wood Hammer</small>
 		</div>
 	</div>
-</div><div>
+</div><div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">
@@ -161,7 +161,7 @@ Pok&eacute;mon Caught: 301, Seen: 418
 			<small>Surf, Aqua Ring, Attract, Hydro Pump</small>
 		</div>
 	</div>
-</div><div>
+</div><div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">

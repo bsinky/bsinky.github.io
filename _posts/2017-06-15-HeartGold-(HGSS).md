@@ -31,7 +31,7 @@ Pokémon Caught: 178, Seen: 307
 <section class="section">
 	<div>
 		<div class="columns is-multiline is-mobile">
-<div>
+<div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">
@@ -52,7 +52,7 @@ Pokémon Caught: 178, Seen: 307
 			</div>
 		</article>
 	</div>
-</div><div>
+</div><div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">
@@ -73,7 +73,7 @@ Pokémon Caught: 178, Seen: 307
 			</div>
 		</article>
 	</div>
-</div><div>
+</div><div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">
@@ -94,7 +94,7 @@ Pokémon Caught: 178, Seen: 307
 			</div>
 		</article>
 	</div>
-</div><div>
+</div><div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">
@@ -115,7 +115,7 @@ Pokémon Caught: 178, Seen: 307
 			</div>
 		</article>
 	</div>
-</div><div>
+</div><div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">
@@ -136,7 +136,7 @@ Pokémon Caught: 178, Seen: 307
 			</div>
 		</article>
 	</div>
-</div><div>
+</div><div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">

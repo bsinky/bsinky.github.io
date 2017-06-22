@@ -43,7 +43,7 @@ Pok&eacute;mon Caught: 399, Seen: 461
 <section class="section">
 	<div>
 		<div class="columns is-multiline is-mobile">
-<div>
+<div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">
@@ -67,7 +67,7 @@ Pok&eacute;mon Caught: 399, Seen: 461
 			<small>Flamethrower, Feint Attack, Fire Blast, Sunny Day</small>
 		</div>
 	</div>
-</div><div>
+</div><div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">
@@ -91,7 +91,7 @@ Pok&eacute;mon Caught: 399, Seen: 461
 			<small>Wing Attack, Air Slash, Poison Fang, Fly</small>
 		</div>
 	</div>
-</div><div>
+</div><div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">
@@ -115,7 +115,7 @@ Pok&eacute;mon Caught: 399, Seen: 461
 			<small>Surf, Aqua Ring, Attract, Hydro Pump</small>
 		</div>
 	</div>
-</div><div>
+</div><div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">
@@ -139,7 +139,7 @@ Pok&eacute;mon Caught: 399, Seen: 461
 			<small>Razor Leaf, Blizzard, Ice Shard, Wood Hammer</small>
 		</div>
 	</div>
-</div><div>
+</div><div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">
@@ -163,7 +163,7 @@ Pok&eacute;mon Caught: 399, Seen: 461
 			<small>Rock Slide, Stone Edge, Crunch, Earthquake</small>
 		</div>
 	</div>
-</div><div>
+</div><div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">

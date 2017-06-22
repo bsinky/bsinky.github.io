@@ -31,7 +31,7 @@ Pok&eacute;mon Caught: 189, Seen: 320
 <section class="section">
 	<div>
 		<div class="columns is-multiline is-mobile">
-<div>
+<div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">
@@ -55,7 +55,7 @@ Pok&eacute;mon Caught: 189, Seen: 320
 			<small>Force Palm, Me First, Feint, Bone Rush</small>
 		</div>
 	</div>
-</div><div>
+</div><div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">
@@ -79,7 +79,7 @@ Pok&eacute;mon Caught: 189, Seen: 320
 			<small>Razor Leaf, Icy Wind, Ice Shard, Flash</small>
 		</div>
 	</div>
-</div><div>
+</div><div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">
@@ -103,7 +103,7 @@ Pok&eacute;mon Caught: 189, Seen: 320
 			<small>Lava Plume, Feint Attack, Fire Punch, Fire Spin</small>
 		</div>
 	</div>
-</div><div>
+</div><div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">
@@ -127,7 +127,7 @@ Pok&eacute;mon Caught: 189, Seen: 320
 			<small>Bite, Wing Attack, Air Cutter, Fly</small>
 		</div>
 	</div>
-</div><div>
+</div><div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">
@@ -151,7 +151,7 @@ Pok&eacute;mon Caught: 189, Seen: 320
 			<small>Dark Pulse, Rock Slide, Payback, Thrash</small>
 		</div>
 	</div>
-</div><div>
+</div><div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">

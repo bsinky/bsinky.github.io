@@ -2,6 +2,7 @@
 layout: post
 title: Jekyll Blog
 date: 2017-06-10 13:57
+excerpt: I've decided to try out blogging using GitHub Pages and Jekyll
 categories: ["misc"]
 comments: true
 ---

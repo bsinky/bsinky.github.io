@@ -18,8 +18,9 @@ url: https://bsinky.github.io
 # Jekyll configuration
 ####################################
 #
+timezone:    America/Chicago
 markdown:    kramdown
-highlighter:  pygments
+highlighter:  rouge
 excerpt_separator: <!--more-->
 
 kramdown:
