@@ -10,7 +10,6 @@ image:
   feature: heartgold1/4/champ.png
   creditlink:
   credit:
-bulma: true
 ---
 
 I became the Pok&eacute;mon League Champion today.  Lance was amazed by my power.

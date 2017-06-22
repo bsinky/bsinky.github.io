@@ -6,7 +6,6 @@ excerpt: Back with another Pokémon Heart Gold update!
 categories: ["pokemon"]
 tags: ["pokemon", "video games"]
 comments: true
-bulma: true
 ---
 
 Back with another Pokémon Heart Gold update! As you can (or will shortly) see, I have updated my method of generating these blog posts, and they now include current party and PC box information! Including Pokémon pictures!

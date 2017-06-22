@@ -6,7 +6,6 @@ excerpt: The most exciting news this time is that Iâ€™m right under the 400 PokÃ
 categories: ["pokemon"]
 tags: ["pokemon", "video games"]
 comments: true
-bulma: true
 ---
 
 The most exciting news this time is that I'm right under the **400 Pok&eacute;mon** caught mark.
