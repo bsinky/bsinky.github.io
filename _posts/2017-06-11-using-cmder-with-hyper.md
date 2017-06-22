@@ -3,6 +3,7 @@ layout: post
 title: Using Cmder with Hyper
 date: 2017-06-11 08:33
 categories: ["programming", "tools"]
+comments: true
 ---
 Today I'm writing about [Hyper](https://hyper.is/), a program that essentially wraps a terminal instance in a pretty UI.  It might sound underwhelming, but it looks *really* good, and besides that has a number of plugins available to add features that you might not be able to get in a standard terminal.
 
@@ -18,9 +19,9 @@ As I found out earlier this week, it is indeed possible.
 
 So, first off, it appears that Cmder accomplishes much of the magic is does by running a command like this:
 
-```bash
+{% highlight bat %}
 cmd /k "%ConEmuDir%\..\init.bat"  -new_console:d:%USERPROFILE%
-```
+{% endhighlight %}
 
 The interesting bit to me was the argument passed with the `/k` switch.  Whatever that `bat` file does could be easily called when launching Hyper as well, since Hyper's `.hyper.js` config file exposes startup arguments for the terminal it launches.
 
@@ -32,13 +33,13 @@ With that in mind, getting a Cmder-like terminal running within Hyper is basical
 
 You should end up with something that looks similar to this[^2]:
 
-```javascript
+{% highlight javascript %}
 shellArgs: ['--login', '/k', '%ConEmuDir%\..\init.bat'],
 
 env: {
     'ConEmuDir': 'C:\Path\To\Your\ConEmuDir'
 },
-```
+{% endhighlight %}
 
 And that's it! If you launch Hyper, you should be greeted with a Cmderesque terminal experience, with the current working directory text colored, and (depending on if you installed this Cmder version) Unix commands like `ls` available.
 

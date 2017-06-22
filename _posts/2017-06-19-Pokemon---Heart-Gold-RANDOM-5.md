@@ -1,9 +1,12 @@
 ---
-layout: pokemonpost
+layout: post
 title: Pokemon - Heart Gold RANDOM (5)
 date: 2017-06-19 19:28
+excerpt: The most exciting news this time is that I’m right under the 400 Pokémon caught mark.
 categories: ["pokemon"]
 tags: ["pokemon", "video games"]
+comments: true
+bulma: true
 ---
 
 The most exciting news this time is that I'm right under the **400 Pok&eacute;mon** caught mark.

@@ -1,9 +1,12 @@
 ---
-layout: pokemonpost
+layout: post
 title: 2017-06-16 - Pokemon - Heart Gold RANDOM (3)
+excerpt: The biggest update this time - I have made it through Victory Road and into the Indigo Plateau!
 date: 2017-06-16 20:29
 categories: ["pokemon"]
 tags: ["pokemon", "video games"]
+comments: true
+bulma: true
 ---
 
 The biggest update this time: **I have made it through Victory Road and into the Indigo Plateau!**

@@ -1,112 +1,69 @@
-# Site settings
-title:       bsinky blog
-email:       
-author:      Ben Sinkula
-description: "A blog about programming, and probably video games"
-baseurl:     ""
-url:         "https://bsinky.github.io/" 
-date_format: "%b %-d, %Y"
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: bsinky blog
+email:
+description: A blog about programming, and probably video games
+# the base hostname & protocol for your site
+# If your project is placed in https://github.com/yourname/yourname.github.io at master branch
+# Then, the 'url' is: http://yourname.github.io
+# If your project is placed in another repository as a gh-pages branch, like: https://github.com/yourname/projectname
+# Then, the 'url' is: http://yourname.github.io/projectname
+url: https://bsinky.github.io
 
-# Google services
-google_verification:
-# Use either direct GA implementation or set up GTM account
-# - using both will skew your data (leave blank to not use at all)
-google_analytics: UA-101240207-1
-google_tag_manager:
-# Bing services
-bing_verification:
+#
+###################################
+# Jekyll configuration
+####################################
+#
+markdown:    kramdown
+highlighter:  pygments
+excerpt_separator: <!--more-->
 
-# Optional features
-animated:             false
-show_related_posts:   false
-show_post_footers:    false
-show_social_icons:    true
-ajaxify_contact_form: false
-enable_mathjax: false
-extended_fonts: false
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
 
-# Disqus post comments
-# (leave blank to disable Disqus)
-disqus_shortname: bsinkyblog
-
-# Facebook Comments plugin
-# (leave blank to disable Facebook Comments, otherwise set it to true)
-facebook_comments:
-facebook_appid:
-facebook_comments_number: 10
-
-# Social icons
-github_username: bsinky
-reddit_username: bsinky
-bitbucket_username:
-stackoverflow_id: 4276832/bsinky 
-twitter_username:
-skype_username:
-steam_nickname: bsinky
-google_plus_id:
-linkedin_username:
-angellist_username:
-medium_id:
-bitcoin_url:
-paypal_url:
-flattr_button:
-
-# Post sharing icons
-show_sharing_icons: true
-# Change to 'true' to enable individual icons
-share_facebook: false
-share_twitter: true
-share_googleplus: false
-share_linkedin: false
-share_digg: false
-share_tumblr: false
-share_reddit: true
-share_stumbleupon: false
-share_hackernews: false
-
-text:
-  pagination:
-    newer: 'Newer'
-    older: 'Older'
-  share_buttons:
-    text:         'Share this post!'
-    facebook:     'Share on Facebook'
-    twitter:      'Share on Twitter'
-    googleplus:   'Share on Google+'
-    linkedin:     'Share on LinkedIn'
-    digg:         'Share on Digg'
-    tumblr:       'Share on Tumblr'
-    reddit:       'Share on Reddit'
-    stumbleupon:  'Share on StumbleUpon'
-    hackernews:   'Share on Hacker News'
-  post:
-    updated:        'Updated'
-    minute_read:    'minute read'
-    related_posts:  'Related Posts'
-  index:
-    coming_soon: 'Coming soon...'
-  contact:
-    email:    'Email Address'
-    content:  'What would you like to say?'
-    subject:  'New submission!'
-    submit:   'Say Hello'
-    ajax:
-      sending:  'sending..'
-      sent:     'Message sent!'
-      error:    'Error!'
-  thanks: 'Thanks for contacting us. We will reply as soon as possible.'
-  og_locale: 'en_US'
-
-# Build settings
-markdown:     kramdown
-redcarpet:
-  extensions: ['smart', 'tables', 'with_toc_data']
-permalink:    pretty
-paginate:     4
-sass:
-  compressed: true
-gems:
-  - jekyll-paginate
-  - jekyll-sitemap
-# https://github.com/jekyll/jekyll/issues/2938
-exclude: [vendor]
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: Benjamin Sinkula
+  avatar: avatar.jpg
+  job: "Software Engineer, Web Developer"
+  bio: 
+  email:
+  disqus-shortname: bsinkyblog
+  twitter: 
+  facebook: 
+  google:
+    plus: 
+    analytics: UA-101240207-1
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: bsinky
+  stackoverflow: 4276832/bsinky
+  linkedin: #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: bsinky
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username
+  reddit: bsinky

@@ -1,9 +1,11 @@
 ---
-layout: pokemonpost
+layout: post
 title: 2017-06-13 - FireRed (HGSS)
 date: 2017-06-13 21:18
+excerpt: So, I’ve been playing a lot of Pokemon HeartGold recently.
 categories: ["pokemon"]
 tags: ["pokemon", "video games"]
+comments: true
 ---
 
 So, I've been playing a lot of Pokemon: HeartGold recently.
