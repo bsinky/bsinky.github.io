@@ -1,14 +1,18 @@
 ---
-layout: pokemonpost
+layout: post
 title: Pokemon - Heart Gold RANDOM (4)
 date: 2017-06-17 16:16
+excerpt: I became the Pokémon League Champion today. Lance was amazed by my power.
 categories: ["pokemon"]
 tags: ["pokemon", "video games"]
+comments: true
+image:
+  feature: heartgold1/4/champ.png
+  creditlink:
+  credit:
 ---
 
 I became the Pok&eacute;mon League Champion today.  Lance was amazed by my power.
-
-![image]({{ site.url }}/images/heartgold1/4/champ.png)
 
 My first Hall of Fame Party is the party I've been using for awhile now, I'll put the detailed individual party members callouts in these footnotes[^1] [^2] [^3] [^4] [^5] [^6].
 
@@ -37,7 +41,7 @@ Pok&eacute;mon Caught: 301, Seen: 418
 <section class="section">
 	<div>
 		<div class="columns is-multiline is-mobile">
-<div>
+<div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">
@@ -61,7 +65,7 @@ Pok&eacute;mon Caught: 301, Seen: 418
 			<small>Tail Whip, Tackle, Helping Hand, Sand Attack</small>
 		</div>
 	</div>
-</div><div>
+</div><div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">
@@ -85,7 +89,7 @@ Pok&eacute;mon Caught: 301, Seen: 418
 			<small>Aura Sphere, Close Combat, Swords Dance, Me First</small>
 		</div>
 	</div>
-</div><div>
+</div><div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">
@@ -109,7 +113,7 @@ Pok&eacute;mon Caught: 301, Seen: 418
 			<small>Rock Slide, Dark Pulse, Crunch, Earthquake</small>
 		</div>
 	</div>
-</div><div>
+</div><div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">
@@ -133,7 +137,7 @@ Pok&eacute;mon Caught: 301, Seen: 418
 			<small>Razor Leaf, Blizzard, Ice Shard, Wood Hammer</small>
 		</div>
 	</div>
-</div><div>
+</div><div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">
@@ -157,7 +161,7 @@ Pok&eacute;mon Caught: 301, Seen: 418
 			<small>Surf, Aqua Ring, Attract, Hydro Pump</small>
 		</div>
 	</div>
-</div><div>
+</div><div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">

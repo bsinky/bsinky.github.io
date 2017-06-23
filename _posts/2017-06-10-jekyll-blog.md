@@ -2,7 +2,9 @@
 layout: post
 title: Jekyll Blog
 date: 2017-06-10 13:57
+excerpt: I've decided to try out blogging using GitHub Pages and Jekyll
 categories: ["misc"]
+comments: true
 ---
 I've decided to try out blogging using GitHub Pages and [Jekyll](https://jekyllrb.com/).  I haven't done anything with Ruby in the past, but Jekyll doesn't seem to require Ruby knowledge, and aside from a few hiccups installing `gem` packages before I realized  `bundle install` existed, it has been a pretty smooth process getting started.
 

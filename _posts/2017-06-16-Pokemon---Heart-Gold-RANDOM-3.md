@@ -1,9 +1,11 @@
 ---
-layout: pokemonpost
+layout: post
 title: 2017-06-16 - Pokemon - Heart Gold RANDOM (3)
+excerpt: The biggest update this time - I have made it through Victory Road and into the Indigo Plateau!
 date: 2017-06-16 20:29
 categories: ["pokemon"]
 tags: ["pokemon", "video games"]
+comments: true
 ---
 
 The biggest update this time: **I have made it through Victory Road and into the Indigo Plateau!**
@@ -29,7 +31,7 @@ Pok&eacute;mon Caught: 189, Seen: 320
 <section class="section">
 	<div>
 		<div class="columns is-multiline is-mobile">
-<div>
+<div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">
@@ -53,7 +55,7 @@ Pok&eacute;mon Caught: 189, Seen: 320
 			<small>Force Palm, Me First, Feint, Bone Rush</small>
 		</div>
 	</div>
-</div><div>
+</div><div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">
@@ -77,7 +79,7 @@ Pok&eacute;mon Caught: 189, Seen: 320
 			<small>Razor Leaf, Icy Wind, Ice Shard, Flash</small>
 		</div>
 	</div>
-</div><div>
+</div><div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">
@@ -101,7 +103,7 @@ Pok&eacute;mon Caught: 189, Seen: 320
 			<small>Lava Plume, Feint Attack, Fire Punch, Fire Spin</small>
 		</div>
 	</div>
-</div><div>
+</div><div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">
@@ -125,7 +127,7 @@ Pok&eacute;mon Caught: 189, Seen: 320
 			<small>Bite, Wing Attack, Air Cutter, Fly</small>
 		</div>
 	</div>
-</div><div>
+</div><div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">
@@ -149,7 +151,7 @@ Pok&eacute;mon Caught: 189, Seen: 320
 			<small>Dark Pulse, Rock Slide, Payback, Thrash</small>
 		</div>
 	</div>
-</div><div>
+</div><div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">

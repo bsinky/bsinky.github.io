@@ -1,9 +1,11 @@
 ---
-layout: pokemonpost
+layout: post
 title: Pokemon - Heart Gold RANDOM (5)
 date: 2017-06-19 19:28
+excerpt: The most exciting news this time is that I’m right under the 400 Pokémon caught mark.
 categories: ["pokemon"]
 tags: ["pokemon", "video games"]
+comments: true
 ---
 
 The most exciting news this time is that I'm right under the **400 Pok&eacute;mon** caught mark.
@@ -41,7 +43,7 @@ Pok&eacute;mon Caught: 399, Seen: 461
 <section class="section">
 	<div>
 		<div class="columns is-multiline is-mobile">
-<div>
+<div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">
@@ -65,7 +67,7 @@ Pok&eacute;mon Caught: 399, Seen: 461
 			<small>Flamethrower, Feint Attack, Fire Blast, Sunny Day</small>
 		</div>
 	</div>
-</div><div>
+</div><div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">
@@ -89,7 +91,7 @@ Pok&eacute;mon Caught: 399, Seen: 461
 			<small>Wing Attack, Air Slash, Poison Fang, Fly</small>
 		</div>
 	</div>
-</div><div>
+</div><div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">
@@ -113,7 +115,7 @@ Pok&eacute;mon Caught: 399, Seen: 461
 			<small>Surf, Aqua Ring, Attract, Hydro Pump</small>
 		</div>
 	</div>
-</div><div>
+</div><div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">
@@ -137,7 +139,7 @@ Pok&eacute;mon Caught: 399, Seen: 461
 			<small>Razor Leaf, Blizzard, Ice Shard, Wood Hammer</small>
 		</div>
 	</div>
-</div><div>
+</div><div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">
@@ -161,7 +163,7 @@ Pok&eacute;mon Caught: 399, Seen: 461
 			<small>Rock Slide, Stone Edge, Crunch, Earthquake</small>
 		</div>
 	</div>
-</div><div>
+</div><div class="column">
 	<div class="box">
 		<article class="media">
 			<div class="media-content">
