@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pok&eacute;mon Site/Blog Generator
-date: 2017-06-27 21:31
+date: 2017-07-01 08:28
 categories: ["programming"]
 tags: ["programming", "pokemon", "video games"]
 excerpt: In writing the Pok&eacute;mon blog posts that I've been frequently posting, I wrote a small program, currently called pk-site.  It occurred to me today that I hadn't written about the inner workings of my here - until now! 
