@@ -5,6 +5,7 @@ date: 2017-07-02 10:09
 excerpt: Things have taken off in Pok&eacute;mon Emerald! I had some issues in the beginning obtaining my stock of 900 Master Balls, but I've since overcome those struggles, and have been catching new Pok&eacute;mon left and right!
 categories: ["pokemon"]
 tags: ["pokemon", "video games"]
+comments: true
 ---
 
 Things have taken off in Pok&eacute;mon Emerald! I had some issues in the beginning obtaining my stock of 900 Master Balls, but I've since overcome those struggles, and have been catching new Pok&eacute;mon left and right!
