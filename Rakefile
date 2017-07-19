@@ -78,7 +78,10 @@ task :publish, :title do |t, args|
   postfilename = "#{posts_dir}/#{formatteddate}-#{filename}"
   puts "Publishing draft: #{postfilename}"
   File.rename(draftfile, postfilename)
-  end
+  postText = File.read(postfilename)
+  newPostText = postText.gsub(/date: [\d]{4}-[\d]{2}-[\d]{2}/, "date: #{formatteddate}")
+  File.open(postfilename, "w") { |file| file.puts newPostText }
+end
 
 desc 'preview the site with drafts'
 task :preview do
