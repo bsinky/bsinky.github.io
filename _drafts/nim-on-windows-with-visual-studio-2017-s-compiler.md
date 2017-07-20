@@ -22,3 +22,5 @@ So, with using that from Cmder, my final command to get a Cmder terminal capable
 Again, the -arch=x64 was *vital* to this working.  I'm not exactly sure *why*, but I received Linker errors (obj file not found) without this part.
 
 Nim Compiler Version 0.17.0 (2017-05-18) [Windows: amd64]
+
+As a fun side affect, this also remedied the issues I had been having compiling [Rust](https://www.rust-lang.org/) code on Windows!
