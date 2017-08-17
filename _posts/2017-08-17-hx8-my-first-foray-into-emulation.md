@@ -1,10 +1,10 @@
 ---
 layout: post
 title: hx8 - My First Foray into Emulation
-date: 2017-08-15 21:56
+date: 2017-08-17 00:00
 categories: ["programming"]
 tags: ["programming", "haxe", "emulation"]
-excerpt: A new blog post
+excerpt: I am pleased to share that my first emulator project, hx8, is complete!
 comments: true
 pinned: false
 ---
