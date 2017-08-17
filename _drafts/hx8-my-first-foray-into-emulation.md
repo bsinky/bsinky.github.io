@@ -30,7 +30,7 @@ Then, a little under a month ago, I re-discovered the repo, and *really* dove in
 I'd like to mention a few truly *invaluable* resources that helped me through this project:
 
 * [This article](http://www.multigesture.net/articles/how-to-write-an-emulator-chip-8-interpreter/) was the first resource I used, and it was simply *instrumental* in getting off the ground.
-* [This Javascript Chip-8 emulator](https://github.com/alexanderdickson/Chip-8-Emulator) was also used ocassionally for inspiration.
+* [This Javascript Chip-8 emulator](https://github.com/alexanderdickson/Chip-8-Emulator) was also used occasionally for inspiration.
 * [Octo](http://johnearnest.github.io/Octo/) is something I found very late in the game, but it was also very useful! Being able to download some of the Chip-8 games that people have created using Octo, then run them on hx8 and see them work was incredible.
 * Last but certainly not least, my fianc&eacute;e, Shannon, for her support and help in writing this very post!
 
