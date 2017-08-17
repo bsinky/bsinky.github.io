@@ -21,7 +21,7 @@ hx8 is an emulator/interpreter for the [Chip-8](https://en.wikipedia.org/wiki/CH
 
 I like to think of the Chip-8 as a fake computer system, but that's probably not entirely accurate.  The Wikipedia article gives a much better explanation and background.  Whatever technical name you give Chip-8, the important thing here is that hx8 can run programs written for Chip-8.
 
-This is a project I began *years* ago (my first commit was on May 18th, 2014), but I set it aside very early on and forgot about it.  For a **long** time.  
+This is a project I began *years* ago[^1], but I set it aside very early on and forgot about it.  For a **long** time.  
 
 hx8 stagnated for over *2 years*, until I found my repo again and checked in a few changes in September and October of 2016.
 
@@ -71,7 +71,7 @@ Initially, I was using the HaxeFlixel game engine.  At this point, I tried to al
 
 Then, I tried using [lime's](https://lib.haxe.org/p/lime/) file dialog, since HaxeFlixel is built on top of OpenFL and lime, so I already had that dependency.  This didn't work for me either, though I don't recall the exact error.
 
-Finally, I decided to drop the HaxeFlixel dependency, and just use lime for graphics/input/windowing.  This meant I could use the latest version of lime (HaxeFlixel is locked to an older version).  Dropping the HaxeFlixel dependency is something I wanted to do anyway[^1], and a quick test before commiting to the lime rewrite told me that yes, lime 5.3.0's file dialog *did* work!
+Finally, I decided to drop the HaxeFlixel dependency, and just use lime for graphics/input/windowing.  This meant I could use the latest version of lime (HaxeFlixel is locked to an older version).  Dropping the HaxeFlixel dependency is something I wanted to do anyway[^2], and a quick test before commiting to the lime rewrite told me that yes, lime 5.3.0's file dialog *did* work!
 
 One thing I still haven't figured out how to do is add a "File" menu to the lime window, and include an "Open..." option there.  This is an enhancement I would like to make at some point, but I don't know of an idiomatic Haxe/lime way to do it.  If anyone has done this in lime, please let me know, point me to the code if possible, and I would be very grateful!
 
@@ -79,7 +79,7 @@ One thing I still haven't figured out how to do is add a "File" menu to the lime
 
 Creating hx8 was a wild ride.  You can view the MIT licensed source code [on GitHub](https://github.com/bsinky/hx8).
 
-It's my first step into further emulation projects, but it's not a step I thought I'd ever finish.  Up until this point I still saw emulators as black magic sorcery.
+It's my first step into further emulation projects, but it's not a step I thought I'd ever finish.  Up until this point I still saw emulators as black magic sorcery.  They appear less like sorcery to me now, and I believe Haxe and lime are a solid platform upon which to write an emulator.  I hope to start another emulator in Haxe in the near future.
 
 I'll leave you with a few screenshots of hx8 running various Chip-8 games.  In a few, you can see one of hx8's features, changeable Chip-8 "screen" colors.  It's a basic feature, but one I am proud to have implemented nonetheless.
 
@@ -93,4 +93,6 @@ I'll leave you with a few screenshots of hx8 running various Chip-8 games.  In a
 
 ---
 
-[^1]: This is not an attack on HaxeFlixel at all - it's a fantastic library! It was just overkill for what I needed to accomplish, which is why dropping it in favor of only lime so much sense.
+[^1]: My first commit was on May 18th, 2014!
+
+[^2]: This is not an attack on HaxeFlixel at all - it's a fantastic library! It was just overkill for what I needed to accomplish, which is why dropping it in favor of only lime so much sense.
