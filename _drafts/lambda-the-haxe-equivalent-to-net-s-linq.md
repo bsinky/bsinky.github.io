@@ -4,16 +4,7 @@ title: Lambda - the Haxe equivalent of .NET's LINQ
 date: 2017-10-22 22:47
 categories: ["programming"]
 tags: ["programming", "haxe", ".NET"]
-excerpt: |
-    Most anyone who’s written C# in the last 9 years has probably heard of LINQ. I would imagine most of those people have also written a few LINQ statements in that time; the language feature is just too useful to pass up!
-
-    As a frequent user of the Haxe language, I recently stumbled upon Lambda. From the linked documentation:
-
-    The Lambda class is a collection of methods to support functional programming. It is ideally used with using Lambda and then acts as an extension to Iterable types.
-
-    On static platforms, working with the Iterable structure might be slower than performing the operations directly on known types, such as Array and List.
-
-    One thing to note - the second paragraph does indicate that using Lambda may result in a performance penalty on static targets. But, if this is acceptable within your application, Lambda is likely to be very useful. This is especially true of C# developers who are used to LINQ - and that brings us to the main point of this article!
+summary: C# programmers familiar with .NET and LINQ may come to Haxe looking for similar features - and they're in luck! In this post we'll go through Lambda - a collection of methods intended to be used as static extensions to add functional programming features to Haxe!
 comments: true
 pinned: false
 ---

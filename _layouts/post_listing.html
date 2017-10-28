@@ -34,7 +34,13 @@ layout: default
 
     </header>
 
-    {% if post.excerpt %}
+    {% if post.summary %}
+    <div class="post-description">
+      <p>
+        {{ post.summary }}
+      </p>
+    </div>
+    {% else if post.excerpt %}
     <div class="post-description">
       <p>
         {{ post.excerpt }}
