@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Lambda - the Haxe equivalent of .NET's LINQ
-date: 2017-10-22 22:47
+date: 2017-10-31 00:00
 categories: ["programming"]
 tags: ["programming", "haxe", ".NET"]
 summary: C# programmers familiar with .NET and LINQ may come to Haxe looking for similar features - and they're in luck! In this post we'll go through Lambda - a collection of methods intended to be used as static extensions to add functional programming features to Haxe!
