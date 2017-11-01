@@ -17,7 +17,7 @@ As a frequent[^2] user of the Haxe language, I recently stumbled upon [Lambda](h
 
 > On static platforms, working with the Iterable structure might be slower than performing the operations directly on known types, such as Array and List.
 
-One thing to note - the second paragraph does indicate that using Lambda *may* result in a performance penalty on static targets.  But, if this is acceptable within your application, Lambda is likely to be *very* useful.  This is especially true of C# developers who are used to LINQ - and that brings us to the main point of this article!
+Do note, the second paragraph indicates that using Lambda *may* result in a performance penalty on static targets.  If efficiency is important above all else in your application, you might steer clear of Lambda.  But, if sacrificing a little performance is acceptable within your application, Lambda is likely to be *very* useful.  This is especially true of C# developers who are used to LINQ - and that brings us to the main point of this article!
 
 ### Contents
 {:.no_toc}
@@ -38,21 +38,19 @@ Until the (stable) release of Haxe 4, arrow functions are also available via a f
 
 ## Where => filter
 
-To start off, here's an example of using `Where` in C# to find all the even numbers in a collection:
+LINQ:
 
 ```csharp
 var someInts = new[] { 1, 2, 3, 4, 5 };
 var onlyEvens = someInts.Where(n => n % 2 == 0);
 ```
 
-To accomplish the same in Haxe, we can use Lambda's `filter`:
+Lambda:
 
 ```as3
 var someInts = [1, 2, 3, 4, 5];
 var onlyEvens = someInts.filter(function(n) n % 2 == 0);
 ```
-
-[filter demo](https://try.haxe.org/#F39eE)
 
 ## FirstOrDefault => find
 
@@ -71,12 +69,9 @@ var someInts = [1, 2, 3, 4, 5];
 var divisibleByThree = someInts.find(function(n) return n % 3 == 0);
 ```
 
-## Single
-
-
 ## Any => exists / empty
 
-A few remarks on this one; LINQ's `Any` has 2 overloads, one which accepts a predicate, and one which does not.  For the example that accepts a predicate, Lambda's `exists` will do.
+A few remarks on this one; LINQ's `Any` has 2 overloads, one that accepts a predicate, and one that does not.  For the example that accepts a predicate, Lambda's `exists` will do.
 
 LINQ:
 
@@ -158,6 +153,8 @@ var indexAndInt = someInts.mapi(function(index, n) return '${index}: ${n}'); // 
 
 ## SelectMany => flatten
 
+LINQ:
+
 ```csharp
 var listOfLists = new [] { new[] { 1, 2, 3 }, new[] { 4, 5, 6 }, new[] {7, 8, 9}};
 var flattenedList = listOfLists.SelectMany(n => n);
@@ -172,7 +169,20 @@ var flattenedList = listOfLists.flatten();
 
 ## Aggregate => fold
 
+What LINQ calls `Aggregate` is an operation more commonly known as `fold`, as Lambda (and other languages) calls it), or `reduce` (JavaScript, and others).  `Aggregate` and `fold` are similar, one difference to note is `Aggregate` accepts the `seed` as its first argument, while `fold` accepts `seed` as the last argument.
 
+```csharp
+var numbers = Enumerable.Range(1, 10);
+// Yes, LINQ also provides Sum, Aggregate is used here simply for illustration
+var sumOfOneThroughTen = numbers.Aggregate(0, (a, b) => a + b);
+```
+
+Lambda:
+
+```as3
+var numbers = [ for (x in 1...11) x ];
+var sumOfOneThroughTen = numbers.fold(function(a, b) return a + b, 0);
+```
 
 ## Count => count
 
@@ -190,34 +200,21 @@ In this case, both LINQ and Lambda methods seem to behave exactly the same.
 
 In this case, both LINQ and Lambda methods seem to behave *similarly*, but it should be noted that, again, the result of LINQ's `Concat` is `IEnumerable` while the result of Lambda's `concat` is a concrete `List` and not simply an `Iterable`.
 
-## Final Notes
+## Single
 
-To close, let's take a look at a few last examples, starting off at a slightly less basic level and ending at an exapmle that isn't so basic and contrived, and may actually prove useful.  Additionally, I hope this helps to prove the power and utility of Lambda!
+Lambda doesn't contain a replacement for LINQ's `Single`, which is fine, as this lies outside of Lambda's functional programming goals.  That's not to say those coming to Haxe, from C# or not, might not need the functionality of `Single` from time to time.  Of course, implementing a `Single` replacement in Haxe is very possible, and straightforward.  One such implementation might look like the following, do note that this implementation doesn't match LINQ's `Single` in every regard.  Notably, it will simply return `null` for an empty `Iterable`.
 
-Our first task: Square all numbers 1 to 100, then find all the squares divisible by 4.  Notice here how both LINQ and Lambda allow you to chain several methods to build up a computation.
+<script src="https://gist.github.com/bsinky/fa75287a8946d7296fc8f5e906b2a136.js"></script>
 
-LINQ:
+## GroupBy
 
-```csharp
-var squaresDivisibleBy4 = Enumerable.Range(1, 100).Select(n => n * n)
-    .Where(n => n % 4 == 0)
-    .ToArray();
-```
+`GroupBy` is another LINQ extension method for which there is no replacement.  Again though, should a Haxe `groupBy` be needed, it need only be implemented! Here's an example of how `groupBy` could be implemented, but be aware that this implementation could be done more efficiently!
 
-Lambda:
-
-```as3
-// Array comprehensions accomplish the same as Enumerable.Range
-var list1To100 = [for (n in 1...101) n];
-var squaresDivisibleBy4 = list1To100.map(function(n) return n * n)
-    .filter(function(n) return n % 4 == 0)
-    .array();
-```
-
+<script src="https://gist.github.com/bsinky/6dcc4226f5b06b04d48af9790398e60e.js"></script>
 
 
 ---
 
-[^1]: LINQ was first introduced with the release of .NET Framework 3.5, on November 19th, 2017.
+[^1]: LINQ was first introduced with the release of .NET Framework 3.5, on November 19th, 2017.  ([Wikipedia](https://en.wikipedia.org/wiki/.NET_Framework_version_history#.NET_Framework_3.5))
 
-[^2]: Though, I am clearly still discovering new parts of the standard library.
+[^2]: Though, I am clearly still discovering new parts of the standard library!
