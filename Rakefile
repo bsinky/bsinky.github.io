@@ -19,9 +19,10 @@ task :post, :title do |t, args|
     ---
     layout: post
     title: #{title}
-    date: #{Time.new.strftime('%Y-%m-%d %H:%M')}
+    date: #{Time.new.strftime('%Y-%m-%d')}
     categories: ["misc"]
-    excerpt: A new blog post
+    tags: ["misc"]
+    summary: A new blog post
     comments: true
     pinned: false
     ---
@@ -49,9 +50,10 @@ task :draft, :title do |t, args|
     ---
     layout: post
     title: #{title}
-    date: #{Time.new.strftime('%Y-%m-%d %H:%M')}
+    date: #{Time.new.strftime('%Y-%m-%d')}
     categories: ["misc"]
-    excerpt: A new blog post
+    tags: ["misc"]
+    summary: A new blog post
     comments: true
     pinned: false
     ---
