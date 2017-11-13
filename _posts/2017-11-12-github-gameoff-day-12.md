@@ -4,7 +4,7 @@ title: GitHub GameOff Day 12
 date: 2017-11-12
 categories: ["gamedev"]
 tags: ["gamedev", "godot", "programming", "githubgameoff"]
-summary: A new blog post
+summary: Wrapping up Day 12 of GitHub GameOff 2017
 comments: true
 pinned: false
 ---
