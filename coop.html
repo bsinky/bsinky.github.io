@@ -1,0 +1,1441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2018-04-16 Mon 21:33 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Co-Op games I own</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Ben Sinkula" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2017 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Co-Op games I own</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org10dc2eb">1. 1993 Space Machine</a></li>
+<li><a href="#org4ace982">2. A Fistful of Gun</a></li>
+<li><a href="#org525e939">3. Abyss Odyssey</a></li>
+<li><a href="#org352005d">4. Broforce</a></li>
+<li><a href="#org7128055">5. Castle Crashers</a></li>
+<li><a href="#org1e296ae">6. Crypt of the NecroDancer</a></li>
+<li><a href="#orga81652a">7. Death Road to Canada</a></li>
+<li><a href="#orgebde8cb">8. Flat Heroes</a></li>
+<li><a href="#org3080485">9. How To Survive 2</a></li>
+<li><a href="#orgf0e540d">10. It Came From Space and Ate Our Brains</a></li>
+<li><a href="#org3be5e0f">11. Jackbox Party Pack 2</a></li>
+<li><a href="#org3e471ae">12. Kane &amp; Lynch 2</a></li>
+<li><a href="#org02f2f1f">13. Laser League</a></li>
+<li><a href="#orgaf52406">14. Left 4 Dead 2</a></li>
+<li><a href="#org8cc4844">15. Lost Castle</a></li>
+<li><a href="#orgd14c499">16. Magicka 1</a></li>
+<li><a href="#org701b2dc">17. Magicka 2</a></li>
+<li><a href="#org65dc658">18. Mercenary Kings</a></li>
+<li><a href="#orga9020dc">19. Monaco</a></li>
+<li><a href="#org425022f">20. Mother Russia Bleeds</a></li>
+<li><a href="#orgd4413cb">21. Ms. Splosion Man</a></li>
+<li><a href="#org424a34a">22. Nex Machina</a></li>
+<li><a href="#org1be4fe3">23. Octodad Dadliest Catch</a></li>
+<li><a href="#orgfafb34d">24. Over 9000 Zombies!</a></li>
+<li><a href="#orgd98b0c5">25. Overcooked</a></li>
+<li><a href="#orgc316d37">26. Party Hard</a></li>
+<li><a href="#orgad57b6d">27. Portal 2</a></li>
+<li><a href="#org16f5347">28. Project Zomboid</a></li>
+<li><a href="#orgaf718ed">29. Resident Evil 6</a></li>
+<li><a href="#org1f1e49b">30. Resident Evil 5</a></li>
+<li><a href="#org3a25cc3">31. Resident Evil Revelations 2</a></li>
+<li><a href="#orgb3f5abb">32. Rocket League</a></li>
+<li><a href="#org3147443">33. Satellite Reign</a></li>
+<li><a href="#org4420b91">34. SEGA Mega Drive and Genesis Classics</a></li>
+<li><a href="#orge5ae6e1">35. Sentinels of the Multiverse</a></li>
+<li><a href="#org1e734f6">36. Steredenn</a></li>
+<li><a href="#orgc2ef675">37. Stikbold</a></li>
+<li><a href="#orge30a449">38. Streets of Rogue</a></li>
+<li><a href="#org78f6afe">39. Victor Vran</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org10dc2eb" class="outline-2">
+<h2 id="org10dc2eb"><span class="section-number-2">1</span> <a href="http://store.steampowered.com/app/373480/1993_Space_Machine/?snr=1_7_7_151_150_1">1993 Space Machine</a></h2>
+<div class="outline-text-2" id="text-1">
+<p>
+    <a href="https://steamcdn-a.akamaihd.net/steam/apps/373480/capsule_sm_120.jpg?t=1490694080">small banner</a><br />
+    <b>Released:</b> Mar 28, 2016<br />
+    <b>Reviews:</b> Positive
+88% of the 18 user reviews for this game are positive.<br />
+    <b>Description:</b> 
+								Space shooters never die. 1993 is a testament to that. 1993 is a classic shoot em up celebrating games like Gradius, R-Type and Life Force.							<br />
+    <b>Tags:</b> 
+</p>
+
+<p>
+Shoot 'Em Up												
+Indie												
+Action												
+Bullet Hell												+
+</p>
+</div>
+</div>
+
+<div id="outline-container-org4ace982" class="outline-2">
+<h2 id="org4ace982"><span class="section-number-2">2</span> <a href="http://store.steampowered.com/app/229810/A_Fistful_of_Gun/?snr=1_7_7_151_150_1">A Fistful of Gun</a></h2>
+<div class="outline-text-2" id="text-2">
+<p>
+    <a href="https://steamcdn-a.akamaihd.net/steam/apps/229810/capsule_sm_120.jpg?t=1454893045">small banner</a><br />
+    <b>Released:</b> Sep 23, 2015<br />
+    <b>Reviews:</b> Mixed
+61% of the 90 user reviews for this game are positive.<br />
+    <b>Description:</b> 
+								Select one of eleven unique playable gunslingers and seek revenge solo or with your friends in Online or Local Co-Op! Master the specialized controls of each character, collect gold from fallen foes to purchase upgrades, get totally drunk and unleash a tornado of lead across the dusty plains.							<br />
+    <b>Tags:</b> 
+</p>
+
+<p>
+Indie												
+Action												
+Western												
+Pixel Graphics												
+Bullet Hell												
+Arena Shooter												
+Top-Down Shooter												
+Local Co-Op												
+Co-op												
+Multiplayer												
+Twin Stick Shooter												
+2D												+
+</p>
+</div>
+</div>
+
+<div id="outline-container-org525e939" class="outline-2">
+<h2 id="org525e939"><span class="section-number-2">3</span> <a href="http://store.steampowered.com/app/255070/Abyss_Odyssey/?snr=1_7_7_151_150_1">Abyss Odyssey</a></h2>
+<div class="outline-text-2" id="text-3">
+<p>
+    <a href="https://steamcdn-a.akamaihd.net/steam/apps/255070/capsule_sm_120.jpg?t=1515700618">small banner</a><br />
+    <b>Released:</b> Jul 15, 2014<br />
+    <b>Reviews:</b> Mixed
+68% of the 1,024 user reviews for this game are positive.<br />
+    <b>Description:</b> <br />
+    <b>Tags:</b> 
+</p>
+</div>
+</div>
+<div id="outline-container-org352005d" class="outline-2">
+<h2 id="org352005d"><span class="section-number-2">4</span> <a href="http://store.steampowered.com/app/274190/Broforce/?snr=1_7_7_151_150_1">Broforce</a></h2>
+<div class="outline-text-2" id="text-4">
+<p>
+    <a href="https://steamcdn-a.akamaihd.net/steam/apps/274190/capsule_sm_120.jpg?t=1511400974">small banner</a><br />
+    <b>Released:</b> Oct 15, 2015<br />
+    <b>Reviews:</b> Overwhelmingly Positive
+96% of the 22,718 user reviews for this game are positive.<br />
+    <b>Description:</b> 
+								When evil threatens the world, the world calls on Broforce - an under-funded, over-powered paramilitary organization dealing exclusively in excessive force. Brace your loins with up to four players to run ‘n’ gun as dozens of different bros and eliminate the opposing terrorist forces that threaten our way of life.							<br />
+    <b>Tags:</b> 
+</p>
+
+<p>
+America												
+Action												
+Pixel Graphics												
+Co-op												
+2D												
+Platformer												
+Indie												
+Local Co-Op												
+Multiplayer												
+Side Scroller												
+Shooter												
+Retro												
+Funny												
+Gore												
+Local Multiplayer												
+Comedy												
+Arcade												
+Adventure												
+Casual												
+Simulation												+
+</p>
+</div>
+</div>
+
+<div id="outline-container-org7128055" class="outline-2">
+<h2 id="org7128055"><span class="section-number-2">5</span> <a href="http://store.steampowered.com/app/204360/Castle_Crashers/?snr=1_7_7_151_150_1">Castle Crashers</a></h2>
+<div class="outline-text-2" id="text-5">
+<p>
+    <a href="https://steamcdn-a.akamaihd.net/steam/apps/204360/capsule_sm_120.jpg?t=1519667450">small banner</a><br />
+    <b>Released:</b> Sep 26, 2012<br />
+    <b>Reviews:</b> Overwhelmingly Positive
+96% of the 33,353 user reviews for this game are positive.<br />
+    <b>Description:</b> 
+								Hack, slash, and smash your way to victory in this award winning 2D arcade adventure from The Behemoth!							<br />
+    <b>Tags:</b> 
+</p>
+
+<p>
+Co-op												
+Action												
+Adventure												
+Multiplayer												
+Beat 'em up												
+Local Co-Op												
+Indie												
+Funny												
+Online Co-Op												
+Comedy												
+Hack and Slash												
+2D												
+RPG												
+Local Multiplayer												
+Casual												
+Controller												
+Great Soundtrack												
+Side Scroller												
+Fantasy												
+Action RPG												+
+</p>
+</div>
+</div>
+
+<div id="outline-container-org1e296ae" class="outline-2">
+<h2 id="org1e296ae"><span class="section-number-2">6</span> <a href="http://store.steampowered.com/app/247080/Crypt_of_the_NecroDancer/?snr=1_7_7_151_150_1">Crypt of the NecroDancer</a></h2>
+<div class="outline-text-2" id="text-6">
+<p>
+    <a href="https://steamcdn-a.akamaihd.net/steam/apps/247080/capsule_sm_120.jpg?t=1504997534">small banner</a><br />
+    <b>Released:</b> Apr 23, 2015<br />
+    <b>Reviews:</b> Overwhelmingly Positive
+96% of the 11,388 user reviews for this game are positive.<br />
+    <b>Description:</b> 
+								Crypt of the NecroDancer is an award winning hardcore roguelike rhythm game. Move to the music and deliver beatdowns to the beat! Groove to the epic Danny Baranowsky soundtrack, or select songs from your own MP3 collection!							<br />
+    <b>Tags:</b> 
+</p>
+
+<p>
+Rhythm												
+Rogue-like												
+Great Soundtrack												
+Pixel Graphics												
+Indie												
+Dungeon Crawler												
+Female Protagonist												
+Difficult												
+Music												
+RPG												
+Local Co-Op												
+Rogue-lite												
+Action												
+2D												
+Procedural Generation												
+Singleplayer												
+Adventure												
+Co-op												
+Fantasy												
+Retro												+
+</p>
+</div>
+</div>
+
+<div id="outline-container-orga81652a" class="outline-2">
+<h2 id="orga81652a"><span class="section-number-2">7</span> <a href="http://store.steampowered.com/app/252610/Death_Road_to_Canada/?snr=1_7_7_151_150_1">Death Road to Canada</a></h2>
+<div class="outline-text-2" id="text-7">
+<p>
+    <a href="https://steamcdn-a.akamaihd.net/steam/apps/252610/capsule_sm_120.jpg?t=1511913034">small banner</a><br />
+    <b>Released:</b> Jul 22, 2016<br />
+    <b>Reviews:</b> Very Positive
+94% of the 2,381 user reviews for this game are positive.<br />
+    <b>Description:</b> 
+								Control a car full of jerks as they explore cities, recruit weird people, rescue dogs, argue with each other, and face gigantic swarms of slow zombies. Randomly generated for a new story and rare events every time you play!							<br />
+    <b>Tags:</b> 
+</p>
+
+<p>
+Pixel Graphics												
+Zombies												
+Action												
+Indie												
+Rogue-like												
+Survival												
+Local Co-Op												
+RPG												
+Great Soundtrack												
+Comedy												
+Character Customization												
+2D												
+Difficult												
+Memes												
+Co-op												
+Multiplayer												
+Funny												
+Replay Value												
+Rogue-lite												
+Adventure												+
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgebde8cb" class="outline-2">
+<h2 id="orgebde8cb"><span class="section-number-2">8</span> <a href="http://store.steampowered.com/app/508790/Flat_Heroes/?snr=1_7_7_151_150_1">Flat Heroes</a></h2>
+<div class="outline-text-2" id="text-8">
+<p>
+    <a href="https://steamcdn-a.akamaihd.net/steam/apps/508790/capsule_sm_120.jpg?t=1504697297">small banner</a><br />
+    <b>Released:</b> Sep 8, 2016<br />
+    <b>Reviews:</b> Positive
+100% of the 47 user reviews for this game are positive.<br />
+    <b>Description:</b> 
+								Flat Heroes is a minimalist super intense local multiplayer game with cooperative and competitive modes for 1-4 players that features squares!							<br />
+    <b>Tags:</b> 
+</p>
+
+<p>
+Early Access												
+Indie												
+Action												
+Local Multiplayer												
+Minimalist												
+2D												
+4 Player Local												+
+</p>
+</div>
+</div>
+
+<div id="outline-container-org3080485" class="outline-2">
+<h2 id="org3080485"><span class="section-number-2">9</span> <a href="http://store.steampowered.com/app/360170/How_to_Survive_2/?snr=1_7_7_151_150_1">How To Survive 2</a></h2>
+<div class="outline-text-2" id="text-9">
+<p>
+    <a href="https://steamcdn-a.akamaihd.net/steam/apps/360170/capsule_sm_120.jpg?t=1502914039">small banner</a><br />
+    <b>Released:</b> Sep 8, 2016<br />
+    <b>Reviews:</b> Mostly Positive
+71% of the 6,087 user reviews for this game are positive.<br />
+    <b>Description:</b> 
+								Dead or Alive? Make up your mind, stranger. We don’t like that undead business here in Louisiana…Survive solo or with friends as you look to fulfill your basic needs of food, water and shelter, crafting your own tools and weapons while you secure your camp and face flesh hungry zombies.							<br />
+    <b>Tags:</b> 
+</p>
+
+<p>
+Survival												
+Zombies												
+Multiplayer												
+Open World												
+Crafting												
+Action												
+Co-op												
+RPG												
+Adventure												
+Base Building												
+Local Co-Op												
+Singleplayer												
+Gore												
+Third Person												
+Shooter												
+Funny												
+4 Player Local												
+Dark Humor												
+Top-Down Shooter												
+Third-Person Shooter												+
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgf0e540d" class="outline-2">
+<h2 id="orgf0e540d"><span class="section-number-2">10</span> <a href="http://store.steampowered.com/app/342620/It_came_from_space_and_ate_our_brains/?snr=1_7_7_151_150_1">It Came From Space and Ate Our Brains</a></h2>
+<div class="outline-text-2" id="text-10">
+<p>
+    <a href="https://steamcdn-a.akamaihd.net/steam/apps/342620/capsule_sm_120.jpg?t=1513873702">small banner</a><br />
+    <b>Released:</b> Mar 19, 2015<br />
+    <b>Reviews:</b> Very Positive
+80% of the 131 user reviews for this game are positive.<br />
+    <b>Description:</b> 
+								‘It came from space, and ate our brains’ is an Arcade top down shooter with horde survival gameplay. The brain slurping aliens are only vulnerable to bullets. Using your flashlight, environment and special powers you have a better chance to take care of the unwanted pink guests.							<br />
+    <b>Tags:</b> 
+</p>
+
+<p>
+Casual												
+Action												
+Indie												
+Adventure												
+Co-op												
+Aliens												
+Multiplayer												
+Survival												
+Top-Down Shooter												
+Horror												
+Top-Down												
+Singleplayer												
+Shooter												
+Local Co-Op												+
+</p>
+</div>
+</div>
+
+<div id="outline-container-org3be5e0f" class="outline-2">
+<h2 id="org3be5e0f"><span class="section-number-2">11</span> <a href="http://store.steampowered.com/app/397460/The_Jackbox_Party_Pack_2/?snr=1_7_7_151_150_1">Jackbox Party Pack 2</a></h2>
+<div class="outline-text-2" id="text-11">
+<p>
+    <a href="https://steamcdn-a.akamaihd.net/steam/apps/397460/capsule_sm_120.jpg?t=1521126937">small banner</a><br />
+    <b>Released:</b> Oct 13, 2015<br />
+    <b>Reviews:</b> Very Positive
+94% of the 373 user reviews for this game are positive.<br />
+    <b>Description:</b> 
+								The sequel to the party game phenomenon The Jackbox Party Pack, featuring FIVE fresh, rib-tickling party games! Your phones or tablets are your controllers – no big mess of controllers needed. For up to 8 players plus an Audience of up to 10,000! It’s a game-night riot in a box… without the box!							<br />
+    <b>Tags:</b> 
+</p>
+
+<p>
+Local Multiplayer												
+Casual												
+Indie												
+Comedy												
+Strategy												
+Local Co-Op												
+Multiplayer												
+Funny												
+Co-op												
+Board Game												
+Family Friendly												+
+</p>
+</div>
+</div>
+
+<div id="outline-container-org3e471ae" class="outline-2">
+<h2 id="org3e471ae"><span class="section-number-2">12</span> <a href="http://store.steampowered.com/app/28000/Kane__Lynch_2_Dog_Days/?snr=1_7_7_151_150_1">Kane &amp; Lynch 2</a></h2>
+<div class="outline-text-2" id="text-12">
+<p>
+    <a href="https://steamcdn-a.akamaihd.net/steam/apps/28020/capsule_sm_120.jpg?t=1447353365">small banner</a><br />
+    <b>Released:</b> Jul 26, 2010<br />
+    <b>Reviews:</b> Mixed
+61% of the 2,179 user reviews for this game are positive.<br />
+    <b>Description:</b> <br />
+    <b>Tags:</b> 
+</p>
+</div>
+</div>
+<div id="outline-container-org02f2f1f" class="outline-2">
+<h2 id="org02f2f1f"><span class="section-number-2">13</span> <a href="http://store.steampowered.com/app/570460/Laser_League/?snr=1_7_7_151_150_1">Laser League</a></h2>
+<div class="outline-text-2" id="text-13">
+<p>
+    <a href="https://steamcdn-a.akamaihd.net/steam/apps/570460/capsule_sm_120.jpg?t=1522056618">small banner</a><br />
+    <b>Released:</b> Feb 8, 2018<br />
+    <b>Reviews:</b> Very Positive
+90% of the 456 user reviews for this game are positive.<br />
+    <b>Description:</b> 
+								Blink and you are dead! LASER LEAGUE is the new last-word in high-speed, future-sports team action. Battle against the opposition for control of nodes that bathe the arena in deadly light. Evade rival coloured beams, and fry your opponents with speed, strength and strategy.							<br />
+    <b>Tags:</b> 
+</p>
+
+<p>
+Early Access												
+Indie												
+Sports												
+Multiplayer												
+Arcade												
+Co-op												
+Strategy												
+Sci-fi												+
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgaf52406" class="outline-2">
+<h2 id="orgaf52406"><span class="section-number-2">14</span> <a href="http://store.steampowered.com/app/550/Left_4_Dead_2/?snr=1_7_7_151_150_1">Left 4 Dead 2</a></h2>
+<div class="outline-text-2" id="text-14">
+<p>
+    <a href="https://steamcdn-a.akamaihd.net/steam/apps/550/capsule_sm_120.jpg?t=1512413191">small banner</a><br />
+    <b>Released:</b> Nov 16, 2009<br />
+    <b>Reviews:</b> Overwhelmingly Positive
+96% of the 126,843 user reviews for this game are positive.<br />
+    <b>Description:</b> 
+								Set in the zombie apocalypse, Left 4 Dead 2 (L4D2) is the highly anticipated sequel to the award-winning Left 4 Dead, the #1 co-op game of 2008. This co-operative action horror FPS takes you and your friends through the cities, swamps and cemeteries of the Deep South, from Savannah to New Orleans across five expansive campaigns.							<br />
+    <b>Tags:</b> 
+</p>
+
+<p>
+Zombies												
+Co-op												
+FPS												
+Multiplayer												
+Action												
+Online Co-Op												
+Shooter												
+Survival												
+First-Person												
+Horror												
+Team-Based												
+Moddable												
+Gore												
+Survival Horror												
+Post-apocalyptic												
+Singleplayer												
+Adventure												
+Local Co-Op												
+Tactical												
+Replay Value												+
+</p>
+</div>
+</div>
+
+<div id="outline-container-org8cc4844" class="outline-2">
+<h2 id="org8cc4844"><span class="section-number-2">15</span> <a href="http://store.steampowered.com/app/434650/Lost_Castle/?snr=1_7_7_151_150_1">Lost Castle</a></h2>
+<div class="outline-text-2" id="text-15">
+<p>
+    <a href="https://steamcdn-a.akamaihd.net/steam/apps/434650/capsule_sm_120.jpg?t=1521692199">small banner</a><br />
+    <b>Released:</b> Aug 31, 2016<br />
+    <b>Reviews:</b> Very Positive
+90% of the 9,009 user reviews for this game are positive.<br />
+    <b>Description:</b> 
+								Lost Castle is an action RPG beat'em up with roguelike elements and randomized dungeons for up to four players!							<br />
+    <b>Tags:</b> 
+</p>
+
+<p>
+Action												
+Adventure												
+RPG												
+Rogue-like												
+Multiplayer												
+Co-op												
+Indie												
+Local Co-Op												
+2D												
+Beat 'em up												
+Dungeon Crawler												
+Rogue-lite												
+Replay Value												
+Hack and Slash												
+Difficult												
+Side Scroller												
+Loot												
+Action RPG												
+Pixel Graphics												
+Singleplayer												+
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgd14c499" class="outline-2">
+<h2 id="orgd14c499"><span class="section-number-2">16</span> <a href="http://store.steampowered.com/app/238370/Magicka_2/?snr=1_7_7_151_150_1">Magicka 1</a></h2>
+<div class="outline-text-2" id="text-16">
+<p>
+    <a href="https://steamcdn-a.akamaihd.net/steam/apps/238370/capsule_sm_120.jpg?t=1481555436">small banner</a><br />
+    <b>Released:</b> May 26, 2015<br />
+    <b>Reviews:</b> Mostly Positive
+76% of the 3,291 user reviews for this game are positive.<br />
+    <b>Description:</b> 
+								The world’s most irreverent co-op action adventure returns! In the next chapter of Magicka, players ascend from the ruins of Aldrheim to experience a Midgård almost wiped free of Wizards after the Wizard Wars, with the few that do remain having either gone mad or extremely hostile toward all&#x2026;							<br />
+    <b>Tags:</b> 
+</p>
+
+<p>
+Magic												
+Co-op												
+Adventure												
+Comedy												
+Action												
+Multiplayer												
+Funny												
+Online Co-Op												
+Atmospheric												
+Team-Based												
+PvP												
+Open World												
+RPG												
+Local Co-Op												
+Fantasy												
+Memes												
+Gore												
+Local Multiplayer												
+Singleplayer												
+Isometric												+
+</p>
+</div>
+</div>
+
+<div id="outline-container-org701b2dc" class="outline-2">
+<h2 id="org701b2dc"><span class="section-number-2">17</span> <a href="http://store.steampowered.com/app/238370/Magicka_2/?snr=1_7_7_151_150_1">Magicka 2</a></h2>
+<div class="outline-text-2" id="text-17">
+<p>
+    <a href="https://steamcdn-a.akamaihd.net/steam/apps/238370/capsule_sm_120.jpg?t=1481555436">small banner</a><br />
+    <b>Released:</b> May 26, 2015<br />
+    <b>Reviews:</b> Mostly Positive
+76% of the 3,291 user reviews for this game are positive.<br />
+    <b>Description:</b> 
+								The world’s most irreverent co-op action adventure returns! In the next chapter of Magicka, players ascend from the ruins of Aldrheim to experience a Midgård almost wiped free of Wizards after the Wizard Wars, with the few that do remain having either gone mad or extremely hostile toward all&#x2026;							<br />
+    <b>Tags:</b> 
+</p>
+
+<p>
+Magic												
+Co-op												
+Adventure												
+Comedy												
+Action												
+Multiplayer												
+Funny												
+Online Co-Op												
+Atmospheric												
+Team-Based												
+PvP												
+Open World												
+RPG												
+Local Co-Op												
+Fantasy												
+Memes												
+Gore												
+Local Multiplayer												
+Singleplayer												
+Isometric												+
+</p>
+</div>
+</div>
+
+<div id="outline-container-org65dc658" class="outline-2">
+<h2 id="org65dc658"><span class="section-number-2">18</span> <a href="http://store.steampowered.com/app/218820/Mercenary_Kings_Reloaded_Edition/?snr=1_7_7_151_150_1">Mercenary Kings</a></h2>
+<div class="outline-text-2" id="text-18">
+<p>
+    <a href="https://steamcdn-a.akamaihd.net/steam/apps/218820/capsule_sm_120.jpg?t=1517939314">small banner</a><br />
+    <b>Released:</b> Mar 25, 2014<br />
+    <b>Reviews:</b> Mostly Positive
+75% of the 1,030 user reviews for this game are positive.<br />
+    <b>Description:</b> <br />
+    <b>Tags:</b> 
+</p>
+</div>
+</div>
+<div id="outline-container-orga9020dc" class="outline-2">
+<h2 id="orga9020dc"><span class="section-number-2">19</span> <a href="http://store.steampowered.com/app/113020/Monaco_Whats_Yours_Is_Mine/?snr=1_7_7_151_150_1">Monaco</a></h2>
+<div class="outline-text-2" id="text-19">
+<p>
+    <a href="https://steamcdn-a.akamaihd.net/steam/apps/113020/capsule_sm_120.jpg?t=1504890491">small banner</a><br />
+    <b>Released:</b> Apr 24, 2013<br />
+    <b>Reviews:</b> Very Positive
+92% of the 3,367 user reviews for this game are positive.<br />
+    <b>Description:</b> 
+								Monaco: What's Yours Is Mine is a single player or co-op heist game. Assemble a crack team of thieves, case the joint, and pull off the perfect heist.							<br />
+    <b>Tags:</b> 
+</p>
+
+<p>
+Co-op												
+Stealth												
+Indie												
+Heist												
+Local Co-Op												
+Strategy												
+Online Co-Op												
+Top-Down												
+Action												
+Multiplayer												
+Crime												
+Casual												
+Great Soundtrack												
+Adventure												
+Controller												
+Local Multiplayer												
+Pixel Graphics												
+2D												
+Loot												
+Singleplayer												+
+</p>
+</div>
+</div>
+
+<div id="outline-container-org425022f" class="outline-2">
+<h2 id="org425022f"><span class="section-number-2">20</span> <a href="http://store.steampowered.com/app/361300/Mother_Russia_Bleeds/?snr=1_7_7_151_150_1">Mother Russia Bleeds</a></h2>
+<div class="outline-text-2" id="text-20">
+<p>
+    <a href="https://steamcdn-a.akamaihd.net/steam/apps/361300/capsule_sm_120.jpg?t=1480076843">small banner</a><br />
+    <b>Released:</b> Sep 5, 2016<br />
+    <b>Reviews:</b> Very Positive
+86% of the 1,945 user reviews for this game are positive.<br />
+    <b>Description:</b> <br />
+    <b>Tags:</b> 
+</p>
+</div>
+</div>
+<div id="outline-container-orgd4413cb" class="outline-2">
+<h2 id="orgd4413cb"><span class="section-number-2">21</span> <a href="http://store.steampowered.com/app/105420/Ms_Splosion_Man/?snr=1_7_7_151_150_1">Ms. Splosion Man</a></h2>
+<div class="outline-text-2" id="text-21">
+<p>
+    <a href="https://steamcdn-a.akamaihd.net/steam/apps/105420/capsule_sm_120.jpg?t=1447357495">small banner</a><br />
+    <b>Released:</b> Apr 3, 2013<br />
+    <b>Reviews:</b> Very Positive
+85% of the 127 user reviews for this game are positive.<br />
+    <b>Description:</b> 
+								You got a problem? Yo, she’ll splode it. At the Big Science after-party celebrating the capture of Splosion Man, a spill of champagne shorts out the safety protocols on the splosionatrix and from it emerges Ms. Splosion Man. The latest creation from Twisted Pixel Games, the creators of Splosion Man, The Maw, and Comic Jumper, Ms.							<br />
+    <b>Tags:</b> 
+</p>
+
+<p>
+Indie												
+Action												
+Platformer												
+Female Protagonist												
+Co-op												
+Comedy												
+Local Co-Op												+
+</p>
+</div>
+</div>
+
+<div id="outline-container-org424a34a" class="outline-2">
+<h2 id="org424a34a"><span class="section-number-2">22</span> <a href="http://store.steampowered.com/app/404540/Nex_Machina/?snr=1_7_7_151_150_1">Nex Machina</a></h2>
+<div class="outline-text-2" id="text-22">
+<p>
+    <a href="https://steamcdn-a.akamaihd.net/steam/apps/404540/capsule_sm_120.jpg?t=1505984942">small banner</a><br />
+    <b>Released:</b> Jun 20, 2017<br />
+    <b>Reviews:</b> Very Positive
+89% of the 847 user reviews for this game are positive.<br />
+    <b>Description:</b> 
+								Nex Machina is an intense arcade style twin-stick shooter from Housemarque. Taking hints from both Robotron and Smash TV, Nex Machina focuses on pure action, voxel destruction and competition in the distant, cablepunk themed future.							<br />
+    <b>Tags:</b> 
+</p>
+
+<p>
+Twin Stick Shooter												
+Action												
+Bullet Hell												
+Great Soundtrack												
+Arcade												
+Indie												
+Shoot 'Em Up												
+Cyberpunk												
+Difficult												
+Controller												
+Shooter												
+Sci-fi												
+Top-Down												
+Replay Value												
+Singleplayer												
+Local Co-Op												
+Co-op												
+Competitive												
+Top-Down Shooter												+
+</p>
+</div>
+</div>
+
+<div id="outline-container-org1be4fe3" class="outline-2">
+<h2 id="org1be4fe3"><span class="section-number-2">23</span> <a href="http://store.steampowered.com/app/224480/Octodad_Dadliest_Catch/?snr=1_7_7_151_150_1">Octodad Dadliest Catch</a></h2>
+<div class="outline-text-2" id="text-23">
+<p>
+    <a href="https://steamcdn-a.akamaihd.net/steam/apps/224480/capsule_sm_120.jpg?t=1478027333">small banner</a><br />
+    <b>Released:</b> Jan 30, 2014<br />
+    <b>Reviews:</b> Very Positive
+92% of the 5,418 user reviews for this game are positive.<br />
+    <b>Description:</b> 
+								Octodad: Dadliest Catch is a game about destruction, deception, and fatherhood. The player controls Octodad, a dapper octopus masquerading as a human, as he goes about his life. Octodad's existence is a constant struggle, as he must master mundane tasks with his unwieldy boneless tentacles while simultaneously keeping his cephalopodan&#x2026;							<br />
+    <b>Tags:</b> 
+</p>
+
+<p>
+Comedy												
+Physics												
+Indie												
+Funny												
+Family Friendly												
+Adventure												
+Local Co-Op												
+Walking Simulator												
+Action												
+Singleplayer												
+Co-op												
+Puzzle												
+Difficult												
+Short												
+Third Person												
+Simulation												
+Great Soundtrack												
+Local Multiplayer												
+Intentionally Awkward Controls												
+Platformer												+
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgfafb34d" class="outline-2">
+<h2 id="orgfafb34d"><span class="section-number-2">24</span> <a href="http://store.steampowered.com/app/273500/Over_9000_Zombies/?snr=1_7_7_151_150_1">Over 9000 Zombies!</a></h2>
+<div class="outline-text-2" id="text-24">
+<p>
+    <a href="https://steamcdn-a.akamaihd.net/steam/apps/273500/capsule_sm_120.jpg?t=1480607988">small banner</a><br />
+    <b>Released:</b> Feb 25, 2015<br />
+    <b>Reviews:</b> Very Positive
+85% of the 692 user reviews for this game are positive.<br />
+    <b>Description:</b> 
+								Over 9000 Zombies! is top-down arcade action blown out of all reasonable proportions. An endless horde of zombies is coming your way, how long can you survive?							<br />
+    <b>Tags:</b> 
+</p>
+
+<p>
+Action												
+Zombies												
+Indie												
+Top-Down												
+Multiplayer												
+Pixel Graphics												
+Local Co-Op												
+Co-op												
+2D												
+Survival												
+Memes												
+Retro												
+Arcade												
+Local Multiplayer												
+Bullet Hell												+
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgd98b0c5" class="outline-2">
+<h2 id="orgd98b0c5"><span class="section-number-2">25</span> <a href="http://store.steampowered.com/app/448510/Overcooked/?snr=1_7_7_151_150_1">Overcooked</a></h2>
+<div class="outline-text-2" id="text-25">
+<p>
+    <a href="https://steamcdn-a.akamaihd.net/steam/apps/448510/capsule_sm_120.jpg?t=1512143044">small banner</a><br />
+    <b>Released:</b> Aug 3, 2016<br />
+    <b>Reviews:</b> Very Positive
+92% of the 4,108 user reviews for this game are positive.<br />
+    <b>Description:</b> 
+								Overcooked is a chaotic couch co-op cooking game for one to four players. Working as a team, you and your fellow chefs must prepare, cook and serve up a variety of tasty orders before the baying customers storm out in a huff.							<br />
+    <b>Tags:</b> 
+</p>
+
+<p>
+Local Co-Op												
+Local Multiplayer												
+Multiplayer												
+Casual												
+Co-op												
+4 Player Local												
+Family Friendly												
+Indie												
+Funny												
+Co-op Campaign												
+Simulation												
+Action												
+Singleplayer												
+Colorful												
+Great Soundtrack												
+Cute												
+Difficult												
+Adventure												
+Online Co-Op												
+Memes												+
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgc316d37" class="outline-2">
+<h2 id="orgc316d37"><span class="section-number-2">26</span> <a href="http://store.steampowered.com/app/356570/Party_Hard/?snr=1_7_7_151_150_1">Party Hard</a></h2>
+<div class="outline-text-2" id="text-26">
+<p>
+    <a href="https://steamcdn-a.akamaihd.net/steam/apps/356570/capsule_sm_120.jpg?t=1497447952">small banner</a><br />
+    <b>Released:</b> Aug 25, 2015<br />
+    <b>Reviews:</b> Very Positive
+88% of the 3,711 user reviews for this game are positive.<br />
+    <b>Description:</b> <br />
+    <b>Tags:</b> 
+</p>
+</div>
+</div>
+<div id="outline-container-orgad57b6d" class="outline-2">
+<h2 id="orgad57b6d"><span class="section-number-2">27</span> <a href="http://store.steampowered.com/app/620/Portal_2/?snr=1_7_7_151_150_1">Portal 2</a></h2>
+<div class="outline-text-2" id="text-27">
+<p>
+    <a href="https://steamcdn-a.akamaihd.net/steam/apps/620/capsule_sm_120.jpg?t=1512411524">small banner</a><br />
+    <b>Released:</b> Apr 18, 2011<br />
+    <b>Reviews:</b> Overwhelmingly Positive
+98% of the 87,151 user reviews for this game are positive.<br />
+    <b>Description:</b> 
+								The "Perpetual Testing Initiative" has been expanded to allow you to design co-op puzzles for you and your friends!							<br />
+    <b>Tags:</b> 
+</p>
+
+<p>
+Puzzle												
+Co-op												
+First-Person												
+Sci-fi												
+Comedy												
+Singleplayer												
+Online Co-Op												
+Adventure												
+Funny												
+Science												
+Female Protagonist												
+Action												
+Multiplayer												
+Story Rich												
+Atmospheric												
+Local Co-Op												
+FPS												
+Strategy												
+Space												
+Platformer												+
+</p>
+</div>
+</div>
+
+<div id="outline-container-org16f5347" class="outline-2">
+<h2 id="org16f5347"><span class="section-number-2">28</span> <a href="http://store.steampowered.com/app/108600/Project_Zomboid/?snr=1_7_7_151_150_1">Project Zomboid</a></h2>
+<div class="outline-text-2" id="text-28">
+<p>
+    <a href="https://steamcdn-a.akamaihd.net/steam/apps/108600/capsule_sm_120.jpg?t=1508165065">small banner</a><br />
+    <b>Released:</b> Nov 8, 2013<br />
+    <b>Reviews:</b> Very Positive
+86% of the 12,488 user reviews for this game are positive.<br />
+    <b>Description:</b> 
+								Project Zomboid is the ultimate in zombie survival. Alone or in MP: you loot, build, craft, fight, farm and fish in a struggle to survive. A hardcore RPG skillset, a vast map, a massively customisable sandbox and a cute tutorial raccoon await the unwary. So how will you die?							<br />
+    <b>Tags:</b> 
+</p>
+
+<p>
+Early Access												
+Survival												
+Zombies												
+Open World												
+Sandbox												
+Indie												
+Multiplayer												
+Simulation												
+RPG												
+Post-apocalyptic												
+Crafting												
+Co-op												
+Building												
+Survival Horror												
+Isometric												
+Singleplayer												
+2D												
+Realistic												
+Adventure												
+Real-Time with Pause												+
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgaf718ed" class="outline-2">
+<h2 id="orgaf718ed"><span class="section-number-2">29</span> <a href="http://store.steampowered.com/app/221040/Resident_Evil_6__Biohazard_6/?snr=1_7_7_151_150_1">Resident Evil 6</a></h2>
+<div class="outline-text-2" id="text-29">
+<p>
+    <a href="https://steamcdn-a.akamaihd.net/steam/apps/221040/capsule_sm_120.jpg?t=1521804211">small banner</a><br />
+    <b>Released:</b> Mar 21, 2013<br />
+    <b>Reviews:</b> Mostly Positive
+79% of the 10,391 user reviews for this game are positive.<br />
+    <b>Description:</b> <br />
+    <b>Tags:</b> 
+</p>
+</div>
+</div>
+<div id="outline-container-org1f1e49b" class="outline-2">
+<h2 id="org1f1e49b"><span class="section-number-2">30</span> <a href="http://store.steampowered.com/app/21690/Resident_Evil_5_Biohazard_5/?snr=1_7_7_151_150_1">Resident Evil 5</a></h2>
+<div class="outline-text-2" id="text-30">
+<p>
+    <a href="https://steamcdn-a.akamaihd.net/steam/apps/21690/capsule_sm_120.jpg?t=1521173501">small banner</a><br />
+    <b>Released:</b> Sep 15, 2009<br />
+    <b>Reviews:</b> Very Positive
+85% of the 6,082 user reviews for this game are positive.<br />
+    <b>Description:</b> <br />
+    <b>Tags:</b> 
+</p>
+</div>
+</div>
+<div id="outline-container-org3a25cc3" class="outline-2">
+<h2 id="org3a25cc3"><span class="section-number-2">31</span> <a href="http://store.steampowered.com/app/287290/Resident_Evil_Revelations_2__Biohazard_Revelations_2/?snr=1_7_7_151_150_1">Resident Evil Revelations 2</a></h2>
+<div class="outline-text-2" id="text-31">
+<p>
+    <a href="https://steamcdn-a.akamaihd.net/steam/apps/287290/capsule_sm_120.jpg?t=1485473595">small banner</a><br />
+    <b>Released:</b> Feb 24, 2015<br />
+    <b>Reviews:</b> Mostly Positive
+76% of the 7,859 user reviews for this game are positive.<br />
+    <b>Description:</b> <br />
+    <b>Tags:</b> 
+</p>
+</div>
+</div>
+<div id="outline-container-orgb3f5abb" class="outline-2">
+<h2 id="orgb3f5abb"><span class="section-number-2">32</span> <a href="http://store.steampowered.com/app/252950/Rocket_League/?snr=1_7_7_151_150_1">Rocket League</a></h2>
+<div class="outline-text-2" id="text-32">
+<p>
+    <a href="https://steamcdn-a.akamaihd.net/steam/apps/252950/capsule_sm_120.jpg?t=1522783996">small banner</a><br />
+    <b>Released:</b> Jul 7, 2015<br />
+    <b>Reviews:</b> Very Positive
+92% of the 149,605 user reviews for this game are positive.<br />
+    <b>Description:</b> 
+								Soccer meets driving once again in the long-awaited, physics-based multiplayer-focused sequel to Supersonic Acrobatic Rocket-Powered Battle-Cars! Choose a variety of high-flying vehicles equipped with huge rocket boosters to score amazing aerial goals and pull-off incredible game-changing saves!							<br />
+    <b>Tags:</b> 
+</p>
+
+<p>
+Multiplayer												
+Racing												
+Soccer												
+Sports												
+Competitive												
+Team-Based												
+Online Co-Op												
+Football												
+Action												
+Co-op												
+Fast-Paced												
+Funny												
+Local Multiplayer												
+Great Soundtrack												
+Split Screen												
+Local Co-Op												
+Singleplayer												
+4 Player Local												
+Casual												
+Indie												+
+</p>
+</div>
+</div>
+
+<div id="outline-container-org3147443" class="outline-2">
+<h2 id="org3147443"><span class="section-number-2">33</span> <a href="http://store.steampowered.com/app/268870/Satellite_Reign/?snr=1_7_7_151_150_1">Satellite Reign</a></h2>
+<div class="outline-text-2" id="text-33">
+<p>
+    <a href="https://steamcdn-a.akamaihd.net/steam/apps/268870/capsule_sm_120.jpg?t=1468891986">small banner</a><br />
+    <b>Released:</b> Aug 28, 2015<br />
+    <b>Reviews:</b> Mostly Positive
+75% of the 1,706 user reviews for this game are positive.<br />
+    <b>Description:</b> 
+								Satellite Reign is a real-time, class-based strategy game, set in an open-world cyberpunk city. You command a group of 4 agents through rain-soaked, neon-lit streets, where the law is the will of mega-corporations.							<br />
+    <b>Tags:</b> 
+</p>
+
+<p>
+Cyberpunk												
+Strategy												
+Sci-fi												
+Real-Time												
+Indie												
+Action												
+Tactical												
+Open World												
+Stealth												
+Top-Down												
+Class-Based												
+Singleplayer												
+Isometric												
+Kickstarter												
+Co-op												
+Multiplayer												
+RPG												
+RTS												
+Atmospheric												
+Great Soundtrack												+
+</p>
+</div>
+</div>
+
+<div id="outline-container-org4420b91" class="outline-2">
+<h2 id="org4420b91"><span class="section-number-2">34</span> <a href="http://store.steampowered.com/app/34270/SEGA_Mega_Drive_and_Genesis_Classics/?snr=1_7_7_151_150_1">SEGA Mega Drive and Genesis Classics</a></h2>
+<div class="outline-text-2" id="text-34">
+<p>
+    <a href="https://steamcdn-a.akamaihd.net/steam/apps/34270/capsule_sm_120.jpg?t=1498671459">small banner</a><br />
+    <b>Released:</b> Jun 1, 2010<br />
+    <b>Reviews:</b> Mostly Positive
+78% of the 678 user reviews for this game are positive.<br />
+    <b>Description:</b> 
+								Re-live old memories and create some new ones in this comprehensive collection of classic titles from the golden era of the SEGA Mega Drive &amp; SEGA Genesis.							<br />
+    <b>Tags:</b> 
+</p>
+
+<p>
+RPG												
+Action												
+Adventure												
+Casual												
+Retro												
+Classic												
+Platformer												+
+</p>
+</div>
+</div>
+
+<div id="outline-container-orge5ae6e1" class="outline-2">
+<h2 id="orge5ae6e1"><span class="section-number-2">35</span> <a href="http://store.steampowered.com/app/337150/Sentinels_of_the_Multiverse/?snr=1_7_7_151_150_1">Sentinels of the Multiverse</a></h2>
+<div class="outline-text-2" id="text-35">
+<p>
+    <a href="https://steamcdn-a.akamaihd.net/steam/apps/337150/capsule_sm_120.jpg?t=1511825539">small banner</a><br />
+    <b>Released:</b> Dec 22, 2014<br />
+    <b>Reviews:</b> Very Positive
+92% of the 440 user reviews for this game are positive.<br />
+    <b>Description:</b> 
+								You've never played a comic book like this! Control a team of heroes battling evil villains across dynamic environments. Play out epic comic book battles come to life in this exciting adaptation of the hit card game.							<br />
+    <b>Tags:</b> 
+</p>
+
+<p>
+Card Game												
+Strategy												
+Indie												
+Board Game												
+Superhero												
+Multiplayer												
+Singleplayer												
+Local Co-Op												
+Co-op												
+Online Co-Op												+
+</p>
+</div>
+</div>
+
+<div id="outline-container-org1e734f6" class="outline-2">
+<h2 id="org1e734f6"><span class="section-number-2">36</span> <a href="http://store.steampowered.com/app/347160/Steredenn/?snr=1_7_7_151_150_1">Steredenn</a></h2>
+<div class="outline-text-2" id="text-36">
+<p>
+    <a href="https://steamcdn-a.akamaihd.net/steam/apps/347160/capsule_sm_120_alt_assets_0.jpg?t=1523380266">small banner</a><br />
+    <b>Released:</b> Oct 1, 2015<br />
+    <b>Reviews:</b> Very Positive
+88% of the 341 user reviews for this game are positive.<br />
+    <b>Description:</b> 
+								Steredenn is a frenetic and chaotic space shooter, carved in big beautiful pixels, with insane boss battles. Embark in your ship and engage the fight against dreadful space pirates in a never-ending combat for your survival.							<br />
+    <b>Tags:</b> 
+</p>
+
+<p>
+Shoot 'Em Up												
+Indie												
+Action												
+Pixel Graphics												
+Rogue-like												
+Bullet Hell												
+Great Soundtrack												
+Difficult												
+Side Scroller												
+Space												
+2D												
+Rogue-lite												
+Shooter												+
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgc2ef675" class="outline-2">
+<h2 id="orgc2ef675"><span class="section-number-2">37</span> <a href="http://store.steampowered.com/app/429330/Stikbold_A_Dodgeball_Adventure/?snr=1_7_7_151_150_1">Stikbold</a></h2>
+<div class="outline-text-2" id="text-37">
+<p>
+    <a href="https://steamcdn-a.akamaihd.net/steam/apps/429330/capsule_sm_120.jpg?t=1493021016">small banner</a><br />
+    <b>Released:</b> Apr 1, 2016<br />
+    <b>Reviews:</b> Very Positive
+90% of the 102 user reviews for this game are positive.<br />
+    <b>Description:</b> 
+								Stikbold is a glorious and intense sport which will put your friendships to the test with fast-paced, hard-hitting and occasionally hilariously unfair action! Or play the co-op story mode to unlock the full roster of quirky sporting heroes and earn achievements.							<br />
+    <b>Tags:</b> 
+</p>
+
+<p>
+Sports												
+Action												
+Indie												
+Family Friendly												
+Local Multiplayer												
+Funny												
+Colorful												
+4 Player Local												
+Physics												
+Great Soundtrack												
+Local Co-Op												
+Adventure												+
+</p>
+</div>
+</div>
+
+<div id="outline-container-orge30a449" class="outline-2">
+<h2 id="orge30a449"><span class="section-number-2">38</span> <a href="http://store.steampowered.com/app/512900/Streets_of_Rogue/?snr=1_7_7_151_150_1">Streets of Rogue</a></h2>
+<div class="outline-text-2" id="text-38">
+<p>
+    <a href="https://steamcdn-a.akamaihd.net/steam/apps/512900/capsule_sm_120.jpg?t=1515261888">small banner</a><br />
+    <b>Released:</b> Mar 10, 2017<br />
+    <b>Reviews:</b> Overwhelmingly Positive
+95% of the 2,652 user reviews for this game are positive.<br />
+    <b>Description:</b> 
+								Fight, sneak, and hack your way through randomly generated cities. It's like Nuclear Throne meets Deus Ex, mixed with the anarchy of GTA. Rogue-lite meets immersive sim, and goes completely insane.							<br />
+    <b>Tags:</b> 
+</p>
+
+<p>
+Early Access												
+Pixel Graphics												
+RPG												
+Rogue-like												
+Action												
+Rogue-lite												
+Indie												
+Adventure												
+Multiplayer												
+Co-op												
+Stealth												
+Funny												
+Great Soundtrack												
+Violent												
+2D												
+Local Co-Op												
+Gore												
+Online Co-Op												
+Procedural Generation												
+Shooter												+
+</p>
+</div>
+</div>
+
+<div id="outline-container-org78f6afe" class="outline-2">
+<h2 id="org78f6afe"><span class="section-number-2">39</span> <a href="http://store.steampowered.com/app/345180/Victor_Vran_ARPG/?snr=1_7_7_151_150_1">Victor Vran</a></h2>
+<div class="outline-text-2" id="text-39">
+<p>
+    <a href="https://steamcdn-a.akamaihd.net/steam/apps/345180/capsule_sm_120.jpg?t=1498044907">small banner</a><br />
+    <b>Released:</b> Jul 24, 2015<br />
+    <b>Reviews:</b> Very Positive
+89% of the 2,406 user reviews for this game are positive.<br />
+    <b>Description:</b> 
+								Victor Vran is the isometric action-RPG where your skill is just as essential as your character build and gear. Experience intense combat action: dodge, jump and unleash powerful skills to finish off your enemies!							<br />
+    <b>Tags:</b> 
+</p>
+
+<p>
+Action RPG												
+RPG												
+Hack and Slash												
+Adventure												
+Action												
+Co-op												
+Isometric												
+Multiplayer												
+Loot												
+Indie												
+Dungeon Crawler												
+Controller												
+Local Co-Op												
+Singleplayer												
+Fantasy												
+Online Co-Op												+
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Ben Sinkula</p>
+<p class="date">Created: 2018-04-16 Mon 21:33</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
