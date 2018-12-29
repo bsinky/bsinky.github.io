@@ -4,7 +4,7 @@ title: Hacktoberfest 2018
 date: 2018-12-03
 categories: ["programming"]
 tags: ["programming", "opensource", "github", "hacktoberfest"]
-summary: A new blog post
+summary: This year I again participated in DigitalOcean's Hacktoberfest event! This was my 2nd Hacktoberfest, having participated last year for the first time. The mission of Hacktoberfest is to help the open source community on GitHub grow and flourish by getting people involved in open source.
 comments: true
 pinned: false
 ---
