@@ -37,7 +37,7 @@ kramdown:
 ####################################
 #
 owner:
-  name: Ben Sinkula
+  name: Ben
   avatar: avatar.jpg
   job: "Software Engineer, Web Developer"
   bio: 
@@ -63,7 +63,7 @@ owner:
   foursquare: #username
   steam: bsinky
   dribbble: #username
-  youtube: #username
+  youtube: @bsinky
   soundcloud: #username
   weibo: #username
   flickr: #username
